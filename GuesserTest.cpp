@@ -63,3 +63,4 @@ TEST(GuesserTest,zero_distance) {
 	Guesser object("Secret");
 	ASSERT_EQ(object.distance("Secret"),0);
 }
+
